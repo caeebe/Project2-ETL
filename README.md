@@ -41,8 +41,8 @@ Each source uses their own codes and methods to track accident data.  The canadi
 	- We also decided to look at safety device usage (seat belts, helmets, child seats).  We translated the codes into these categories: safety devices used, safety device not used, or usage unknown.  We then flattened the person data for each collision to find out whether each collision had everyone using all their safety devices, anyone not using a safety device or, if safety usage was unknown.
 4.  The fourth file contains all the vehicles involved in each collision and their data.
 	- We decided to only look at accidents involving light duty vehicles as their characteristics matched across both countries, therefore we cleaned up the coding to only look at the cars and then filter the data to only accidents involving at least one car.
-	-The 4 cleaned and translated files needed to be merged, then the non fatal accidents were dropped along with accidents that did not involve light duty vehicles.
-	-Finally the CSV files needed to be shortened from the very large files to much smaller files so each file was truncated to just 2016 data for uploading.  Either the original files or the sm_files can be used in the final project.
+	- The 4 cleaned and translated files needed to be merged, then the non fatal accidents were dropped along with accidents that did not involve light duty vehicles.
+	- Finally the CSV files needed to be shortened from the very large files to much smaller files so each file was truncated to just 2016 data for uploading.  Either the original files or the sm_files can be used in the final project.
 
 ### Canadian Data:
 
