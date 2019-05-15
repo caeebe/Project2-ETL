@@ -45,9 +45,10 @@ Each source uses their own codes and methods to track accident data.  The canadi
 	- Finally the CSV files needed to be shortened from the very large files to much smaller files so each file was truncated to just 2016 data for uploading.  Either the original files or the sm_files can be used in the final project.
 
 ### Canadian Data:
-
-
-
+1. For the Canadian accident data, there was only one file included. This file contains 22 different columns which have collision level data, person level data, and vehicle level data.
+	- We shortened the dataset to only include accidents after 2011.
+	- We dropped many of the columns from the Canadian data, leaving only the columns which we could combine with the filtered French dataset.
+	- We re-coded many of the columns in the Canadian data to match the catagories which we used for the French data.
 
 ## Load Decision:
 We decided to put our combined data into a MySQL database.  The data structure lent itself well to a table format as the original data were in table formatting.  We also found that with the time constraints the best method was MySQL.  Our resulting accident table can be used to compare data from both Canada and France.  With more time, we would like to add accident traffic data from additional countries.  Also, we could look at some of the data that we dropped for brevity to normalize their usage for comparison as well.
