@@ -52,3 +52,7 @@ Each source uses their own codes and methods to track accident data.  The canadi
 
 ## Load Decision:
 We decided to put our combined data into a MySQL database.  The data structure lent itself well to a table format as the original data were in table formatting.  We also found that with the time constraints the best method was MySQL.  Our resulting accident table can be used to compare data from both Canada and France.  With more time, we would like to add accident traffic data from additional countries.  Also, we could look at some of the data that we dropped for brevity to normalize their usage for comparison as well.
+
+### Conclusion:
+
+With both datasets combined we  can now compare rates  of accidents and compare conditions in which most fatalities occur.  With more time, we could include datasets from additional countries to start looking at global accident trends with the goal of seeing if some countries have policies that improve safety.
